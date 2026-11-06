@@ -1,0 +1,58 @@
+{
+  "name": "mirai-goat-mix-mix",
+  "version": "3.0.0",
+  "description": "MIRAI + GoatBot hybrid WhatsApp bot (Baileys).",
+  "main": "Juwel.js",
+  "engines": {
+    "node": "22.x",
+    "npm": ">=10.0.0 <13.0.0"
+  },
+  "scripts": {
+    "start": "node Juwel.js",
+    "whatsapp": "PLATFORM=whatsapp node Juwel.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GOAT-MIRAI-MIX/MR-JUWEL.git"
+  },
+  "keywords": [
+    "bot",
+    "juwelproject",
+    "javascript",
+    "JUWEL",
+    "mirai",
+    "goat",
+    "goat mirai mix bot",
+    "whatsapp"
+  ],
+  "author": "乛 M𝆠፝֟R ཐི༏ཋྀ JU𝆠፝֟W𝆠፝֟ELꜛཐི༏ཋྀ࿐",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GOAT-MIRAI-MIX/MR-JUWEL/issues"
+  },
+  "homepage": "https://github.com/GOAT-MIRAI-MIX/MR-JUWEL#readme",
+  "dependencies": {
+    "@miraipr0ject/assets": "^1.0.9",
+    "@whiskeysockets/baileys": "~6.7.18",
+    "axios": "^1.6.0",
+    "canvas": "^3.2.0",
+    "chalk": "^4.1.2",
+    "express": "^4.19.2",
+    "form-data": "^4.0.0",
+    "fs-extra": "^11.2.0",
+    "image-downloader": "^4.3.0",
+    "moment": "^2.29.4",
+    "moment-timezone": "^0.5.43",
+    "node-schedule": "^2.1.1",
+    "pino": "^9.5.0",
+    "qrcode-terminal": "^0.12.0",
+    "request": "^2.88.2",
+    "sequelize": "^6.21.4",
+    "shaon-videos-downloader": "^1.0.1",
+    "sqlite3": "^5.1.7",
+    "string-similarity": "^4.0.4",
+    "youtube-search-api": "^2.0.1",
+    "yt-search": "^2.10.4",
+    "ytdl-core": "^4.11.2"
+  }
+}

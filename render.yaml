@@ -1,0 +1,13 @@
+# Render Blueprint — রিপো কানেক্ট করলে সব নিজে থেকে সেট হয়ে যায়।
+# বটের নম্বর: botnumber.js · অ্যাডমিন: config.json — Render এ কিছু বসাতে হয় না।
+services:
+  - type: web
+    name: whatsapp-bot
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /
+    envVars:
+      - key: NODE_VERSION
+        value: "22"

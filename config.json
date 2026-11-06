@@ -1,0 +1,39 @@
+{
+  "━━━━━━━━━━ 👑 CREDIT ━━━━━━━━━━": "乛 M𝆠፝֟R ཐི༏ཋྀ JU𝆠፝֟W𝆠፝֟ELꜛཐི༏ཋྀ࿐",
+  "Author": "乛 M𝆠፝֟R ཐི༏ཋྀ JU𝆠፝֟W𝆠፝֟ELꜛཐི༏ཋྀ࿐",
+  "version": "3.0.0",
+  "language": "en",
+  "━━━━━━━━━━ 🤖 BOT ━━━━━━━━━━": "বটের নাম ও কমান্ডের চিহ্ন (বটের নম্বর এখানে নয় — botnumber.js ফাইলে)",
+  "BOTNAME": "────〲─⃞🎀⁽𝐑𝆠፝֟𝐈𝐘𝆠፝֟𝐀₎⪨‌‌‌‌‌‌‌‌‌‌‌‎⤸⃞🎀𐙚࿐",
+  "PREFIX": "/",
+  "usePrefix": true,
+  "━━━━━━━━━━ 👮 ADMIN ━━━━━━━━━━": "এখানে শুধু অ্যাডমিনের নম্বর ও UID বসান — একবার বসালে আর বদলাতে হয় না",
+  "ADMINBOT": [
+    "8801943488192",
+    "108031513764085"
+  ],
+  "adminOnly": false,
+  "allowInbox": true,
+  "━━━━━━━━━━ 📱 WHATSAPP ━━━━━━━━━━": "লগইন মোড: both = কোড + QR (ডিফল্ট) | code = শুধু কোড | qr = শুধু QR",
+  "PLATFORM": "whatsapp",
+  "WHATSAPP": {
+    "sessionDir": "wa_session",
+    "loginMode": "both",
+    "selfListen": true,
+    "autoRead": false,
+    "markOnline": false,
+    "humanTyping": { "enabled": true, "msPerChar": 45, "minMs": 800, "maxMs": 6000, "readBeforeReply": true }
+  },
+  "━━━━━━━━━━ ⚙️ SYSTEM ━━━━━━━━━━": "অটো ডাটাবেস ও ডেভেলপার মোড",
+  "autoCreateDB": true,
+  "DeveloperMode": false,
+  "DATABASE": {
+    "sqlite": {
+      "storage": "../data/data.sqlite"
+    }
+  },
+  "━━━━━━━━━━ 🚫 DISABLED ━━━━━━━━━━": "বন্ধ রাখা কমান্ড/ইভেন্টের ফাইলের নাম (যেমন \"help.js\")",
+  "commandDisabled": [],
+  "eventDisabled": [],
+  "━━━━━━━━━━ © END ━━━━━━━━━━": "乛 M𝆠፝֟R ཐི༏ཋྀ JU𝆠፝֟W𝆠፝֟ELꜛཐི༏ཋྀ࿐"
+}
